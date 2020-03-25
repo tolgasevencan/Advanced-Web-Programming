@@ -1,0 +1,12 @@
+body {
+    background: #bb1842;
+    text-align: center;
+}
+
+h1 {
+    color: #000000;
+}
+
+#result {
+    font-family: Arial, Helvetica, sans-serif;
+}
