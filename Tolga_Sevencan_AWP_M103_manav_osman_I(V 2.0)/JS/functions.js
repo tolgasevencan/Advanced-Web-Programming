@@ -1,6 +1,6 @@
 let urunler = ["Ananas", "Biber", "Domates", "Muz"];
 
-let vitrin = document.querySelector('#vitrin');
+let vitrin = document.querySelector('.kap');
 
 let ulVitrin = document.createElement('ul');
 
@@ -14,9 +14,4 @@ for (let i=0; i<urunler.length; i++) {
 };
 
 
-
-$('.kapVitrin').on('click', function() {
-    $(this).appendTo('#sepet');
-    $('.kapVitrin>.vitrin').appendTo('#sepet');
-})
 

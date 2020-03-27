@@ -16,10 +16,10 @@ body {
 }
 
 /** ID */
-.kapVitrin {
+.kap {
     border: 5px solid salmon;
     display: flex;
-    flex: 45%;
+    flex: 50%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -27,13 +27,3 @@ body {
     padding: 20px;
 }
 
-.kapSepet {
-    border: 5px solid salmon;
-    display: flex;
-    flex: 45%;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 20px;
-}
