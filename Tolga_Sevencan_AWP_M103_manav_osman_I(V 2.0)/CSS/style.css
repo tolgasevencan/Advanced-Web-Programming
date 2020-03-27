@@ -7,16 +7,20 @@ h1 {
 }
 
 /** CLASS */
-body {
+.kap {
     display: flex;
     flex-direction: row;
     align-items: stretch;
-    padding: 40px 5%;
+    padding: 40px;
     min-height: 100vh;
 }
 
+
+
+
 /** ID */
-.kap {
+
+#vitrin {
     border: 5px solid salmon;
     display: flex;
     flex: 50%;
@@ -25,5 +29,15 @@ body {
     text-align: center;
     flex-direction: column;
     padding: 20px;
-}
+};
 
+#sepet {
+    border: 5px solid salmon;
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+};
