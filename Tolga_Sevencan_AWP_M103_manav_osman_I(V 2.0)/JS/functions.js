@@ -1,11 +1,11 @@
 let urunler = ["Ananas", "Biber", "Domates", "Muz"];
 
-let kapVitrin = document.querySelector('.kapVitrin');
+let vitrin = document.querySelector('#vitrin');
 
 let ulVitrin = document.createElement('ul');
 
-document.body.appendChild(kapVitrin);
-kapVitrin.appendChild(ulVitrin);
+document.body.appendChild(vitrin);
+vitrin.appendChild(ulVitrin);
 
 for (let i=0; i<urunler.length; i++) {
     let li = document.createElement('li');
@@ -13,20 +13,10 @@ for (let i=0; i<urunler.length; i++) {
     li.innerHTML=li.innerHTML + urunler[i];
 };
 
-let kapSepet = document.querySelector('.kapSepet');
 
-let ulSepet = document.createElement('ul');
-
-document.body.appendChild(kapSepet);
-kapSepet.appendChild(ulSepet);
-
-for (let i=0; i<urunler.length; i++) {
-    let li = document.createElement('li');
-    ulSepet.appendChild(li);
-    li.innerHTML=li.innerHTML;
-};
 
 $('.kapVitrin').on('click', function() {
-    $(this).appendTo('.kapSepet');
+    $(this).appendTo('#sepet');
+    $('.kapVitrin>.vitrin').appendTo('#sepet');
 })
 
