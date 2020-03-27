@@ -24,12 +24,9 @@ for (let i=0; i<urunler.length; i++) {
     let li = document.createElement('li');
     ulSepet.appendChild(li);
     li.innerHTML=li.innerHTML;
-}
+};
 
 $('.kapVitrin').on('click', function() {
-    $('.kapSepet').append($(this));
-    $('.kapVitrin>.kapSepet').each(function() {
-        $('.kapSepet').append($(this));
-    });
+    $(this).appendTo('.kapSepet');
 })
 
