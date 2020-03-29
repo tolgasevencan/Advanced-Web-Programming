@@ -33,4 +33,4 @@ function createProductsListElement() {
 
     ul.appendChild(li);
     li.innerHTML=li.innerHTML + products[i]
-}};
+}}; 

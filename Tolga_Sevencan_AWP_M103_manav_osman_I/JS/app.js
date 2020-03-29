@@ -19,3 +19,6 @@
 
 
 let products = ["Ananas", "Banana", "Cucumber", "Tomato"];
+
+createProductsListDiv();
+createProductsListElement();
