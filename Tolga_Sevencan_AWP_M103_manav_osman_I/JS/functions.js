@@ -17,20 +17,17 @@ for (let i = 0; i < products.length; i++) {
 };
 */
 
-function createProductsListDiv() {
-    let productsList = document.createElement('div');
-    productsList.setAttribute('id', 'productsList');
+let productsList = document.createElement('div');
+productsList.setAttribute('id', 'productsList');
+
+let ul = document.createElement("ul");
+document.body.appendChild(productsList);
+productsList.appendChild(ul);
+
+for (let i = 0; i < products.length; i++) {
+let li = document.createElement("li");
+
+ul.appendChild(li);
+li.innerHTML=li.innerHTML + products[i]
 };
 
-function createProductsListElement() {
-    let ul = document.createElement("ul");
-
-    document.body.appendChild(productsList);
-    productsList.appendChild(ul);
-
-    for (let i = 0; i < products.length; i++) {
-    let li = document.createElement("li");
-
-    ul.appendChild(li);
-    li.innerHTML=li.innerHTML + products[i]
-}}; 
