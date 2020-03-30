@@ -21,7 +21,7 @@ Kriterler:
 - Indentation'lara (kod hizalama) azami önem verilmesi
 - Kod icinde gereksiz bos satrilarin olmamasi
 - Türkce karakterler kullanilmamasi
-
+ 
 Teslimat Formatı:
 =================
 isim_soyisim_AWP_M105_kelime_ogrenme.zip
