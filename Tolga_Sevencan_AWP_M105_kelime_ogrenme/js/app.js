@@ -1,8 +1,11 @@
+
 let germanWords = ["spielen"];
 
-showQuestion("Question 1:" + germanWords);
 showQuestion("<br><br>");
+showQuestion("Which of the following options corresponds to the word &nbsp"+ "'" + germanWords + "'" + "?");
+ 
 
 let englishWords = ["to go", "to wash", "to play", "to argue"];
 
-showQuestion("Choices:" + englishWords);
+showQuestion("<br><br>");
+showAnswers(englishWords);
