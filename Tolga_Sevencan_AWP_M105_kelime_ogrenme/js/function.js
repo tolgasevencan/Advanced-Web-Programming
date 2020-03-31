@@ -11,8 +11,17 @@ function showAnswers(pData) {
 };
 
 
+function addOptionsToSelect() {
+  let x = document.querySelector("#rightChoice");
+  let option = document.createElement("option");
+  option.text = "Kiwi";
+  x.add(option);
+};
 
-let englishWordsList = document.querySelector('#rightChoice').englishWords;
+
+
+
+
 let englishWords = [
   {
     text: 'to go'
@@ -29,9 +38,3 @@ let englishWords = [
   }
 ];
 
-
-englishWords.forEach(option =>
-  englishWordsList.add(
-    new Option(option.text, option.selected)
-  )
-);
