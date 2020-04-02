@@ -26,6 +26,8 @@ class Polygon {
     }
 };
 
+
+
 // Statik Methods
 class Point {
     constructor(x, y) {
