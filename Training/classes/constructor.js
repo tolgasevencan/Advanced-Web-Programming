@@ -18,14 +18,14 @@ class divide {
     this.bigNumber = bigNumber;
     this.smallNumber = smallNumber;
     }
-    introduce() {
+    displayInConsole() {
         console.log(`Divide result is "${this.bigNumber / this.smallNumber}"`);
     }
 };
 
 const numbers = new divide(12,4);
 
-numbers.introduce();
+numbers.displayInConsole();
 
 
 
