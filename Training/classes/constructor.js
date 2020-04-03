@@ -22,7 +22,7 @@ class divide {
     displayInConsole() {
         console.log(`Divide result is "${this.bigNumber / this.smallNumber}"`);
     }
-};
+}
 
 const numbers = new divide(12,4);
 
@@ -36,14 +36,37 @@ class Animal {
     speak() {
         console.log(this.name + 'makes a noise.');
     }
-};
+}
 
 class Dog extends Animal {
     speak() {
         console.log(this.name + 'barks.');
     }
-};
+}
 
 let bark = new Animal("dog");
 
 bark.speak();
+
+//Super class calls with super
+
+class Cat {
+    constructor(name) {
+        this.name = name;
+    }
+
+    speak() {
+        console.log(this.name + ' makes a noise.');
+    }
+}
+
+class Lion extends Cat {
+    speak() {
+        super.speak();
+        console.log(this.name + ' roars.');
+    }
+}
+
+let roars = new Lion("lion");
+
+roars.speak();

@@ -3,7 +3,7 @@ class Rectangle {
         this.height = height;
         this.weight = weight;
     }
-};
+}
 
 /* Sınıf tanımları ve fonksiyon tanımları arasındaki önemli bir fark, 
 fonksiyonlara tanımlandığı satırdan önce erişim sağlanabilir. 
@@ -24,8 +24,7 @@ class Polygon {
     calcArea() {
         return this.height * this.width;
     }
-};
-
+}
 
 
 // Statik Methods
@@ -41,7 +40,7 @@ class Point {
 
         return Math.sqrt(dx*dx + dy*dy);
     }
-};
+}
 
 const p1 = new Point(5, 5);
 const p2 = new Point(10, 10);
