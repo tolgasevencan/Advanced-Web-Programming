@@ -1,4 +1,4 @@
-/*
+
 // Person class function
 class Person {
     constructor(name) {
@@ -27,9 +27,8 @@ class divide {
 const numbers = new divide(12,4);
 
 numbers.displayInConsole();
-*/
-//Sub classing with extends
 
+//Sub classing with extends
 class Animal {
     constructor(name) {
         this.name= name;
@@ -45,3 +44,6 @@ class Dog extends Animal {
     }
 };
 
+let bark = new Animal("dog");
+
+bark.speak();
