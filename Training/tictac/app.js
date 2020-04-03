@@ -1,6 +1,5 @@
 /**
  *  oop - object oriented programming
- *
  *  board
  *  piece
  *  player
