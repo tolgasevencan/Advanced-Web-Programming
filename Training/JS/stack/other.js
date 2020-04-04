@@ -1,0 +1,3 @@
+dataStore = [];
+
+dataStore.push("hoppala");
