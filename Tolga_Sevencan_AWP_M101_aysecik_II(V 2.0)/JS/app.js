@@ -1,5 +1,5 @@
 //Sayilar dizisi
-let sayilar = ["sifir", "bir", "iki", "uc", "dort", "bes", "alti", "yedi", "sekiz", "dokuz", "on", "onbir", "oniki", "onuc", "ondort", "onbes",];
+let sayilar = ["sifir", "bir", "iki", "uc", "dort", "bes", "alti", "yedi", "sekiz", "dokuz", "on", "onbir", "oniki", "onuc", "ondort", "onbes", ];
 
 let sayiEsleri = {
     "sifir": 0,
@@ -21,18 +21,18 @@ let sayiEsleri = {
 };
 
 let yaziIleSayiAdedi = kacAdetSayi();
-output("Aysecik &nbsp"  + yaziIleSayiAdedi + "&nbsp adet sayi girecek!");
+output("Aysecik &nbsp" + yaziIleSayiAdedi + "&nbsp adet sayi girecek!");
 output("<br><br>");
 
 let rakamIleSayiAdedi = sayilar.indexOf(yaziIleSayiAdedi);
-output("Aysecik &nbsp"  + rakamIleSayiAdedi + "&nbsp adet sayi girecek!");
+output("Aysecik &nbsp" + rakamIleSayiAdedi + "&nbsp adet sayi girecek!");
 output("<br><br>");
 
 let yaziIleSayiListesi = yaziIleSayiListesiOlustur();
 output("Aysecik'in <strong>yazi</strong> ile sayi listesi:" + yaziIleSayiListesi);
 output("<br><br>");
 
-let rakamIleSayiListesi = yaziIleSayiListesi.map(function(pSayi){
+let rakamIleSayiListesi = yaziIleSayiListesi.map(function (pSayi) {
     return sayiEsleri[pSayi];
 });
 output("Aysecik'in <storng>rakam</strong> ile sayi listesi:" + rakamIleSayiListesi);

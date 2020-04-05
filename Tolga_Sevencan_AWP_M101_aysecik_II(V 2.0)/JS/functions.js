@@ -6,8 +6,9 @@ function output(data) {
 
 // Solving functions
 function kacAdetSayi() {
-    return prompt("Kac tane sayi gireceksin Aysecik?");  
+    return prompt("Kac tane sayi gireceksin Aysecik?");
 }
+
 function yaziIleSayiListesiOlustur() {
     let yaziIleSayiListesi = [];
     for (let i = 0; i < rakamIleSayiAdedi; i++) {
@@ -17,11 +18,10 @@ function yaziIleSayiListesiOlustur() {
     return yaziIleSayiListesi;
 }
 
-let listeToplam = rakamIleSayiListesi => rakamIleSayiListesi.reduce((a,b) => a + b, 0);
+let listeToplam = rakamIleSayiListesi => rakamIleSayiListesi.reduce((a, b) => a + b, 0);
 
 function sayiOrtalama() {
-    return rakamToplam/rakamIleSayiListesi.length;
+    return rakamToplam / rakamIleSayiListesi.length;
 }
 
-let listeCarpim = rakamIleSayiListesi => rakamIleSayiListesi.reduce((a,b) => a*b, 0);
-
+let listeCarpim = rakamIleSayiListesi => rakamIleSayiListesi.reduce((a, b) => a * b, 0);
