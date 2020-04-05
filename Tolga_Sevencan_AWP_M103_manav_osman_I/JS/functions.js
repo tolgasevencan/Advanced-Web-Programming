@@ -13,7 +13,7 @@ for (let i = 0; i < products.length; i++) {
     let li = document.createElement("li");
 
     ul.appendChild(li);
-    li.innerHTML=li.innerHTML + products[i]
+    li.innerHTML = li.innerHTML + products[i]
 };
 
 
@@ -25,9 +25,8 @@ document.body.appendChild(productsList);
 productsList.appendChild(ul);
 
 for (let i = 0; i < products.length; i++) {
-let li = document.createElement("li");
+    let li = document.createElement("li");
 
-ul.appendChild(li);
-li.innerHTML=li.innerHTML + products[i]
+    ul.appendChild(li);
+    li.innerHTML = li.innerHTML + products[i]
 };
-
