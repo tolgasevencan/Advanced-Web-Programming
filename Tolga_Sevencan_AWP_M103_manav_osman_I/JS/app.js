@@ -6,7 +6,7 @@
  * - On the right side of the page, we'll have a cart.
  * - We'll choose the products on the right side and move them to the cart on the left.
  * - The products in the cart will be sorted alphabetically.
-*/
+ */
 
 /**
  * PROGRAM FLOW
