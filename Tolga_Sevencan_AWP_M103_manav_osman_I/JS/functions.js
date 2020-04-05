@@ -1,6 +1,6 @@
 let products = ["Ananas", "Banana", "Cucumber", "Tomato"];
 
-/*
+
 let productsList = document.createElement('div');
 productsList.setAttribute('id', 'productsList');
 
@@ -15,7 +15,7 @@ for (let i = 0; i < products.length; i++) {
     ul.appendChild(li);
     li.innerHTML=li.innerHTML + products[i]
 };
-*/
+
 
 let productsList = document.createElement('div');
 productsList.setAttribute('id', 'productsList');
