@@ -1,7 +1,7 @@
 // Output function
 
-function output(data){
-   let output = document.getElementById("output");
+function output(data) {
+    let output = document.getElementById("output");
     output.innerHTML += data;
 }
 
@@ -34,10 +34,9 @@ function sayiGir() {
         output("<br><br>");
     }
     return cikanSayi;
-} 
-
-
-function cikarmaIslemi(cikanSayi, eksilenSayi){    
-    return eksilenSayi-cikanSayi;
 }
 
+
+function cikarmaIslemi(cikanSayi, eksilenSayi) {
+    return eksilenSayi - cikanSayi;
+}

@@ -9,5 +9,6 @@ body {
 #output {
     background: #ab0031;
     margin: 150px;
-    border: 10px solid #ff0000;;
+    border: 10px solid #ff0000;
+    ;
 }
