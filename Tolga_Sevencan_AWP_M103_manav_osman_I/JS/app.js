@@ -20,5 +20,8 @@
 
 let products = ["Ananas", "Banana", "Cucumber", "Tomato"];
 
-createProductsListDiv();
-createProductsListElement();
+let cart = [];
+
+addProducts(products, "#allProducts");
+
+carryToOrders(products, cart);
