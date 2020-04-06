@@ -13,7 +13,7 @@
  * - Create divs in HTML with DOM API.
  * - Create an array of products.
  * - Create unordered lists inside the divs with DOM API.
- * - Write a function so that this function moves from one div to another.
+ * - Write a function so that this function carries from one div to another.
  * - Split the page in two in CSS with Flex.
  */
 

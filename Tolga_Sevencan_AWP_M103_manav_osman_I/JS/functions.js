@@ -17,7 +17,7 @@ function carryToOrders(pProducts, pOrders) {
     let productsList = document.querySelectorAll("#allProducts li");
     console.log(productsList.item(2));
     for (let i = 0; i < products.length; i++) {
-        productsList[i].addEventListener("click", function() {
+        productsList[i].addEventListener("click", function () {
             let productsListItem = productsList[i].innerText;
             let index = pProducts.indexOf(productsListItem);
             pProducts.splice(index, 1);
@@ -26,6 +26,6 @@ function carryToOrders(pProducts, pOrders) {
             pOrders.sort();
             addProducts(pOrders, "#allOrders")
         });
-        
+
     }
 }
