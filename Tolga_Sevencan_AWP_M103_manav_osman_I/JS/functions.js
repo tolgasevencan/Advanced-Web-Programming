@@ -3,7 +3,7 @@
 function addProducts(pArray, id) {
     let products = document.querySelector(id);
     products.innerHTML = "";
-    products.Array.forEach(item => {
+    pArray.forEach(item => {
         let li = document.createElement("li");
         let liText = document.createTextNode(item);
         li.appendChild(liText);

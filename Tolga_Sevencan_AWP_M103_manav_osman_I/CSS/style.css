@@ -10,3 +10,12 @@ h1 {
     display: flex;
 }
 
+.productsList {
+    border: 3px solid #ab0003;
+    width: 50%;
+}
+
+.allOrders {
+    border: 3px solid #ab0003;
+    width: 50%;
+}
