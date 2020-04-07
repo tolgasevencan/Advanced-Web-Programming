@@ -1,7 +1,6 @@
 let germanWords = ["spielen"];
 
-let englishWords = [
-    {
+let englishWords = [{
         choice: "A)",
         text: "to go"
     },
@@ -18,5 +17,3 @@ let englishWords = [
         text: "to walk"
     }
 ];
-
-document.querySelector('.options').innerHTML = englishWords.choice + text;
