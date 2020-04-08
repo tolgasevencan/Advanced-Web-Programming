@@ -14,7 +14,9 @@
     <main>
         <div class="informationEntry">
             <form name="informationEntryForm" action="" method="GET"><br>
-                <input type="text" name="nameEntryBox" value="">
+                <input id="nameBox" type="text" placeholder="Name" name="nameEntryBox" value="">
+                <input id="lastnameBox" type="text" placeholder="Surname" name="nameEntryBox" value="">
+                <input id="cantonBox" type="text" placeholder="Canton" name="nameEntryBox" value="">
                 <input type="button" name="button" value="Click" onclick="enterInformation()">
             </form>
         </div>
@@ -23,7 +25,14 @@
                 <input type="text" placeholder="Search..." name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-            <table id="allCustomersList"></table>
+            <table id="allCustomersList">
+                <label>
+                    <input class="searchBox" placeholder="Search..." type="" name="search">
+                </label>
+                    <input type="button" name="sort" value="Click" onclick="sortByName()">
+                    <input type="button" name="sort" value="Click" onclick="sortByLastName()">
+                    <input type="button" name="sort" value="Click" onclick="sortByCantonName()">
+            </table>
         </div>
     </main>
     <script src="./js/function.js"></script>

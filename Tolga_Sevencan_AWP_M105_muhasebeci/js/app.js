@@ -20,9 +20,22 @@
  * <DOM.JS>
  * 
  * <MODEL.JS>
+ * We need to create a class about saving all of clients information.
+ * - We read data from view and add to new client.
+ * - We need to push all data from html to new client object(array).
+ * - We create a function so that removes all of ex data; to be able to enter new information.
+ * We are creating a new class for editing clients table
+ * - We read data from view again
+ * We are creating a new class about sorting all information
+ * - We sort data by three different functions
+ * Filtering class
+ * - A method that filters all information
  * 
  * <APP.JS>
+ * We can create a client from model.js classes
+ * We can use filtering and sorting classes
+ * Executing
  * 
- * <STYLE.JS>
+ * <STYLE.CSS>
  * 
  */
