@@ -1,4 +1,4 @@
-.container{
+.container {
   padding: 25px 25px;
   margin: 0 auto;
   width: 800px;
@@ -6,19 +6,18 @@
   display: flex;
 }
 
-.form-container{
+.form-container {
   margin-right: 50px;
 }
 
-.table-container table tr{
+.table-container table tr {
   height: 50px;
 }
 
-.table-container table td{
+.table-container table td {
   width: 200px;
 }
 
-.table-container table thead th{
+.table-container table thead th {
   text-align: left;
 }
-
