@@ -15,10 +15,11 @@
  * Create two div tag under the main tag! (left and right divs)
  * The left div will be the registration div.
  * The right div will be the list div.
- * Below the right divide are two elements, one for use for search and the other for use for the list.
- * 
+ * Create a table with a search box at the top on the right side
+ * ==========
  * <DOM.JS>
  * 
+ * ==========
  * <MODEL.JS>
  * We need to create a class about saving all of clients information.
  * - We read data from view and add to new client.
@@ -31,11 +32,13 @@
  * Filtering class
  * - A method that filters all information
  * 
+ * ==========
  * <APP.JS>
  * We can create a client from model.js classes
  * We can use filtering and sorting classes
  * Executing
  * 
+ * ==========
  * <STYLE.CSS>
  * 
  */

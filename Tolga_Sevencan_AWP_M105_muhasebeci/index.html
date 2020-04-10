@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Muhasebeci</title>
 </head>
@@ -21,17 +20,13 @@
             </form>
         </div>
         <div class="listingSection">
-            <form class="searchingCustomers" action="action_page.php">
-                <input type="text" placeholder="Search..." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
             <table id="allCustomersList">
                 <label>
                     <input class="searchBox" placeholder="Search..." type="" name="search">
                 </label>
-                    <input type="button" name="sort" value="Click" onclick="sortByName()">
-                    <input type="button" name="sort" value="Click" onclick="sortByLastName()">
-                    <input type="button" name="sort" value="Click" onclick="sortByCantonName()">
+                <input type="button" name="sort" value="Sort by First Name" onclick="sortByName()">
+                <input type="button" name="sort" value="Sort by Last Name" onclick="sortByLastName()">
+                <input type="button" name="sort" value="Sort by Canton" onclick="sortByCantonName()">
             </table>
         </div>
     </main>
