@@ -42,3 +42,5 @@
  * <STYLE.CSS>
  * 
  */
+
+ new ClientsInformation();
