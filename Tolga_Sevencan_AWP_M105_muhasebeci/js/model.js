@@ -7,8 +7,15 @@ class ClientsInformation {
     }
 }
 
-
-
-class SortingInformation {
-
+class Manager {
+    constructor() {
+        this.submitButton = 
+        this.clientForm = 
+        this.setListeners();
+        this.clients = [];
+    }
+    setListeners() {
+        this.submitButton.addEventListener('click', this.onSubmit.bind(this));
+    }
+    
 }
