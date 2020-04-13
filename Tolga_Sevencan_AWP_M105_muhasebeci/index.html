@@ -12,17 +12,17 @@
 <body>
     <main>
         <div class="informationEntry">
-            <form name="informationEntryForm" action="" method="GET"><br>
-                <input id="nameBox" type="text" placeholder="Name" name="nameEntryBox" value="">
-                <input id="lastnameBox" type="text" placeholder="Surname" name="nameEntryBox" value="">
-                <input id="cantonBox" type="text" placeholder="Canton" name="nameEntryBox" value="">
-                <input type="button" name="button" value="Click" onclick="enterInformation()">
+            <form name="informationEntryForm">
+                <input id="nameBox" type="text" placeholder="Name" name="nameEntryBox">
+                <input id="lastnameBox" type="text" placeholder="Surname" name="nameEntryBox">
+                <input id="cantonBox" type="text" placeholder="Canton" name="nameEntryBox">
+                <input id="submitButton" type="button" value="Submit">
             </form>
         </div>
         <div class="listingSection">
-            <table id="allCustomersList">
+            <table class="allCustomersList">
                 <label>
-                    <input class="searchBox" placeholder="Search..." type="" name="search">
+                    <input id="searchBox" placeholder="Search..." type="" name="search">
                 </label>
                 <input type="button" name="sort" value="Sort by First Name" onclick="sortByName()">
                 <input type="button" name="sort" value="Sort by Last Name" onclick="sortByLastName()">

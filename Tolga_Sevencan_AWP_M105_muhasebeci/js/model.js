@@ -9,13 +9,11 @@ class ClientsInformation {
 
 class Manager {
     constructor() {
-        this.submitButton = 
-        this.clientForm = 
-        this.setListeners();
-        this.clients = [];
+        this.submitButton = document.querySelector('#submitButton');
+        this.firstName = document.querySelector('#nameBox');
+        this.lastName = document.querySelector('#lastnameBox');
+        this.canton = document.querySelector('#cantonBox');
+        this.allCustomersList = document.querySelector('allCustomersList');
+        this.searchBox = document.querySelector('#searchBox');
     }
-    setListeners() {
-        this.submitButton.addEventListener('click', this.onSubmit.bind(this));
-    }
-    
 }

@@ -21,7 +21,8 @@
  * 
  * ==========
  * <MODEL.JS>
- * We need to create a class about saving all of clients information.
+ * We need to create a clients class for ?.
+ * We're creating a Manager class for all executions.
  * - We read data from view and add to new client.
  * - We need to push all data from html to new client object(array).
  * - We create a function so that removes all of ex data; to be able to enter new information.
