@@ -1,7 +1,7 @@
 class Person {
     constructor(fName, lName, canton) {
         this.firstName = fName;
-        this.lastName = lNmae;
+        this.lastName = lName;
         this.canton = canton;
     }
 }
@@ -19,10 +19,11 @@ class Manager {
     onSubmit() {
         const person = {};
         Array.form(this.personForm.elements).map(item => {
-            if (item.name){
-                person[item.name] = item.value;
-        )}
-                this.people.push[item.name] = item.value;
+                if (item.name) {
+                    person[item.name] = item.value;
+                )
+            }
+            this.people.push[item.name] = item.value;
         };
         console.dir(this.formData);
     }
