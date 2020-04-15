@@ -45,3 +45,5 @@
  */
 
 new ClientsInformation();
+
+new Manager();
