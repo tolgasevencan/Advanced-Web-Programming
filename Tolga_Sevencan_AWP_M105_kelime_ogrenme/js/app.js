@@ -1,3 +1,13 @@
+/**
+ * EXPLANATION
+ * 
+ */
+
+ /**
+  * PROGRAM FLOW
+  * 
+  */
+
 let germanWords = ["spielen"];
 
 let englishWords = [{
