@@ -2,6 +2,8 @@ describe('Compare websites', function () {
     it('should add a todo', function () {
         browser.get('https://www.pluralsight.com/');
         browser.sleep(7000);
+    // It's not working. (Code 135)
+
         /*
         element(by.model('todoList.todoText')).sendKeys('write first protractor test');
         element(by.css('[value="add"]')).click();
