@@ -10,15 +10,29 @@
 </head>
 
 <body>
-
-    <div class="allIncluded">
-        <div class="allProducts">
-            <table id="productsTable"></table>
+    <main>
+        <h1>// OSMAN GREENGROCER \\</h1>
+        <div class="leftShowcaseContainer">
+            <table id="shoppingList">
+                <h2></h2>
+                <tr>
+                    <th>Products</th>
+                    <th>Price</th>
+                </tr>
+            </table>
         </div>
-        <div class="allOrders">
-            <table id="ordersTable"></table>
+        <div class="rightShowcaseContainer">
+            <table id="cart">
+                <tr>
+                    <th>Products</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr class="totalPrice">SUM
+                    <th id="sumOfProducts"></th>
+                </tr>
+            </table>
         </div>
-    </div>
+    </main>
     <script src="./js/functions.js"></script>
     <script src="./js/app.js"></script>
 </body>

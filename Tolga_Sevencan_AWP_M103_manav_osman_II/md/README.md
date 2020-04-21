@@ -4,7 +4,7 @@ Manav Osman, yapmis oldugunuz sanal vitrin ile mahalle disina da ürünlerini sa
 
 Program Akisi:
 ================
-Yeni vitrinde sol tarafta artik fiyatlarda yazmalidir. Saga atilan ayni ürünler ise artik alt alta degil miktarlar toplanarak bir satir olarak yazilmalidir. Bu ürün satirinda ürünün istenen miktari ve ürünün toplam fiyati yazmalidir. Ayrica sagdaki bölümün altinda toplam sepet tutari da yazilmalidir.
+Yeni vitrinde sol tarafta artik fiyatlarda yazmalidir. Saga atilan ayni ürünler ise artik alt alta degil miktarlar (Urune 3 defa basilinca urun sagda tek satir olarak fakat yaninda miktar 3 olarak) toplanarak bir satir olarak yazilmalidir. Bu ürün satirinda ürünün istenen miktari ve ürünün toplam fiyati yazmalidir. Ayrica sagdaki bölümün altinda toplam sepet tutari (fiyat toplami) da yazilmalidir.
 
 Opsiyonel:
 ================
