@@ -18,12 +18,29 @@
  * + Create a table with products, quantities, price and total in the window on the rigt!.
  * =======
  * / functions.js \
- * - Write a function that adds products and product prices to the left side showcase.
+ * + Write a function that adds products and product prices to the left side showcase.
  * - Write a function that carries products from the left side showcase to right side showcase.
  * - Write a function that adds the same products in quantity!
  * - Write a function that adds up prices!
  * =======
  * / app.js \
- * - Create a products object!
- * - Create an empty cart object!
+ * + Create a products object!
+ * + Create an empty cart object!
  */
+
+
+// Products object for all included products
+let products = [{
+        name: "Ananas",
+        price: 10
+    },
+    {
+        name: "Tomato",
+        price: 7
+    },
+];
+
+// An array for choosing products
+let cart = [];
+
+console.log(products);
