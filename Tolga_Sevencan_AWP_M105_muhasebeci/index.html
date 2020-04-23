@@ -20,17 +20,23 @@
             </form>
         </div>
         <div class="listingSection">
+            <label>
+                <input id="searchBox" placeholder="Search..." type="" name="search">
+            </label>
+            <input type="button" name="sort" value="Sort by First Name" onclick="sortByName()">
+            <input type="button" name="sort" value="Sort by Last Name" onclick="sortByLastName()">
+            <input type="button" name="sort" value="Sort by Canton" onclick="sortByCantonName()">
+
             <table class="allCustomersList">
-                <label>
-                    <input id="searchBox" placeholder="Search..." type="" name="search">
-                </label>
-                <input type="button" name="sort" value="Sort by First Name" onclick="sortByName()">
-                <input type="button" name="sort" value="Sort by Last Name" onclick="sortByLastName()">
-                <input type="button" name="sort" value="Sort by Canton" onclick="sortByCantonName()">
+                <!-- JS'ten uretilecek -->
             </table>
         </div>
     </main>
-    <script src="./js/function.js"></script>
+    <script src="./AppViewController.js"></script>
+    <script src="./ClientListTable.js"></script>
+    <script src="./Form.js"></script>
+    <script src="./js/client.js"></script>
+    <script src="./js/CRM.js"></script>
     <script src="./js/dom.js"></script>
     <script src="./js/model.js"></script>
     <script src="./js/app.js"></script>

@@ -1,6 +1,6 @@
 /**
  * - EXPLANATION -
- * The user will create a new contact with the form tool on the left of the screen and add it to the table on the right.
+ * The user will create a new contact with the form tool on the left of the screen and add it to the CRM (holding all informations) on the right.
  * When the Save button is pressed, the fields in the form will be reset.
  * 
  * There will be a search button on the table on the right.
@@ -44,6 +44,8 @@
  * 
  */
 
-new ClientsInformation();
-
-new Manager();
+let crm = new CRM();
+let clientRegistrationForm = new Form();
+let table = new ClientListTable();
+let controller = new AppViewController(clientRegistrationForm, crm, table);
+controller.init();
