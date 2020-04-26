@@ -8,7 +8,12 @@ class Manager{
     }
 
     setInitialData(){
+        const initialData = {
+            settings: {username: 'Ahmet', password: 'secret'},
+            student: []
+        };
 
+        this.dbManager
     }
 
     setQuestions(){

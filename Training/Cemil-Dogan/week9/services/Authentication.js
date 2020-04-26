@@ -9,11 +9,13 @@ class Authentication {
         const password = this.LoginView.getPassword();
 
         const appInfo = this.dbManager.getItem(appName);
-        if(appInfo.settings.password == password) {
-            this.loginView.addToDom('.message', 'Welcome')
+        if(appInfo.settings.password !== password) {
+            this.loginView.addToDom('.message', 'Correct Password please!')
+            return;
         }
         //if()
-        console.log(password);
+        this.loginView.addToDom('.message', 'Welcome')
+        
     }
 
 }
