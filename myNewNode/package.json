@@ -1,0 +1,14 @@
+{
+  "name": "tolgas-super-calculator",
+  "version": "0.0.1",
+  "description": "super hesap",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mehmets-super-calulator": "0.0.1"
+  }
+}
