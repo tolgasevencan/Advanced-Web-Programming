@@ -1,5 +1,11 @@
 class Manager{
-    constructor(name){
+
+	static appName = 'kerrat';
+	
+    constructor(){
+    	this.db = new DBManager(Manager.appName);
+    	this.auth = new Authentication(this.db);
+    	this.setViews = 
         this.appName = 'kerrat';
         this.students = [];
         this.dbManager = new DBManager();
