@@ -1,0 +1,5 @@
+class RoundLollipop{
+    constructor(){
+        
+    }
+}
