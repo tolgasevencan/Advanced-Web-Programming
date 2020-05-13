@@ -1,5 +1,5 @@
 class AyhanBey {
-    constructor() {
-
+    constructor(pName) {
+        this.name = pName;
     }
 }

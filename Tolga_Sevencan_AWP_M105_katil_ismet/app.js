@@ -8,9 +8,22 @@
 
 /**
  * TECHNICAL DETAILS
- * - We have three customers. Each of these customers must be a class. (Model Directory)
- * - We have to create main controller (AppViewController). (View Directory)
- * - We have to create customer list with a class. (View Directory)
- * - We have to create an app.js to run the application.
+ * / index.html \
+ * + Create a main tag for the application.
+ * + Create a div tag that includes customer list form.
+ * + Create a table that shows all customers.
+ * 
+ * / src \
+ * 
+ * // model \\
+ * + We have three customers. Each of these customers must be a class. (Model Directory)
+ * 
+ * // view \\
+ * + We have to create main controller (AppViewController). (View Directory)
+ * + We have to create customer list with a class. (View Directory)
+ * 
+ * / app.js \
+ * 
+ * 
  * 
  */
