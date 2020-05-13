@@ -3,5 +3,4 @@ exports.config = {
     specs: ['spec.js'],
     chromeOnly: true,
     directConnect: true,
-
 };
