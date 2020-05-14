@@ -27,3 +27,9 @@
  * 
  * 
  */
+
+
+let crm = new CRM();
+let table = new CustomerListTable();
+let controller = new AppViewController();
+controller.init();
