@@ -1,0 +1,19 @@
+{
+  "name": "tolga_sevencan_awp_m107_school_rest_api",
+  "version": "0.0.1",
+  "description": "School ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "school",
+    "api",
+    "rest"
+  ],
+  "author": "tolga sevencan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
