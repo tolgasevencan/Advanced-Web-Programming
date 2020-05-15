@@ -8,6 +8,21 @@
 
 /**
  * TECHNICAL DETAILS
+ * Icerisinde musterilerin oldugu bir musteri listemiz(+) olmali. Bunu modelin icerisinde bir musteri klasorune(+) herbir musteri(+) icin class olusturarak yapabiliriz.
+ * Musterilerin herbirinin kendisine ozgu oldurtmek istedigi (kurban) listesi olmali. Dolayisi ile her bir musteri icin Kurban Listesi classi olusturabiliriz. 
+ * Ve her bir musterinin class i icerisinde kendi kurban listesi bir parametre olarak bulunabilir.
+ * Her bir kurbanin ismi ve adresleri olmali.
+ * Uygulama ile musteri listesinden bir musteri secilecek (Secim Yapici). Ardindan musterinin oldurtmek istedigi kurban secilecek.
+ * Gorev basari ile tamamlanip kurban olduruldu ise listede kurbanin ismi silinik (Click yapip ismi silik sekle sokan bir sey =))sekilde gosterilecek.
+ */
+
+
+
+
+
+
+/**
+ * TECHNICAL DETAILS
  * / index.html \
  * + Create a main tag for the application.
  * + Create a div tag that includes customer list form.
