@@ -14,26 +14,22 @@
 
     <div id="root"></div>
 
-        <script type="text/babel">
-
-
+    <script type="text/babel">
 
         class Name extends React.Component {
             render() {
                 return (
                         <em>isim</em>
                 );
-
             }
         }
 
         class Welcome extends React.Component {
             render () {
                 return (
-                    <React.Fragment>
-                        <h1>merhaba </h1>
-                        <Name/>
-                    </React.Fragment>
+                        <h1>             
+                            merhaba {this.props.name}
+                        </h1>
                 )
             }
         }
@@ -42,10 +38,10 @@
             render () {
                 return (
 // App klasi ile asagidaki app etiketi ayni seyler degil. Asagidaki siradan bir etiket atama. Eger aynisi olur ise sonsuz donguye girer.
-                    <app> app 
-                        <Welcome/>
-                        <Welcome/>
-                        <Welcome/>
+                    <app> 
+                        <Welcome name="Tolga"/>
+                        <Welcome name="Betuel"/>
+                        <Welcome name="Oemer"/>
                     </app>
                 );
             }
