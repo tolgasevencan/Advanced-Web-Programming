@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tolga Sevencan - React 2</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+
+    <div id="root"></div>
+
+        <script type="text/babel">
+
+
+
+        class Name extends React.Component {
+            render() {
+                return (
+                        <em>isim</em>
+                );
+
+            }
+        }
+
+        class Welcome extends React.Component {
+            render () {
+                return (
+                    <React.Fragment>
+                        <h1>merhaba </h1>
+                        <Name/>
+                    </React.Fragment>
+                )
+            }
+        }
+
+        class App extends React.Component {
+            render () {
+                return (
+// App klasi ile asagidaki app etiketi ayni seyler degil. Asagidaki siradan bir etiket atama. Eger aynisi olur ise sonsuz donguye girer.
+                    <app> app 
+                        <Welcome/>
+                        <Welcome/>
+                        <Welcome/>
+                    </app>
+                );
+            }
+        }
+
+        ReactDOM.render(
+            <App />,
+            document.getElementById('root')
+        );
+
+    </script>
+
+</body>
+
+</html>
