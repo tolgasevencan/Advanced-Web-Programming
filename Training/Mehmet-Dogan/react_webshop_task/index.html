@@ -16,34 +16,57 @@
 
     <script type="text/babel">
 
-        class Title extends React.Component {
-        render() {
-           return (
-               <h1> hi:coders - Web Shop </h1>     
-           );
+        class List extends React.Component {
+            render() {
+                return (
+                    <div>
+                        <ul>
+                        <li> 1 </li>
+                        <li> 2 </li>
+                        </ul>
+                    </div>
+                )
+            }
         }
-    }
 
         class SubTitle extends React.Component {
-        render() {
-            return (
-                <React.Fragment>
-                    <Title />
-                    <h2> Everything what you need </h2>
-                </React.Fragment>
-            );
-        }
+            render() {
+                return (
+                        <React.Fragment>
+                        <h2> Everything what you need </h2>
+                        <List />
+                        </React.Fragment>
+                );
+            }
     }
-    
-    
+        class Title extends React.Component {
+            render() {
+                return (
+                        <React.Fragment>
+                        <h1> hi:coders - Web Shop </h1>     
+                        <SubTitle />
+                        </React.Fragment>
+                );
+            }
+        }
+
+        class Main extends React.Component {
+            render() {
+                return (
+                        <React.Fragment>
+                        <p> Haoo </p>
+                        <Title />
+                        </React.Fragment>
+                );
+            }
+        }
+   
     ReactDOM.render(
-        <SubTitle />,
+        <Main />,
         document.getElementById('root')
     );
 
     </script>
-
-
 
 </body>
 
